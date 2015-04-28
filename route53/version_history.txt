@@ -1,0 +1,9 @@
+[20110112]
+- Added readme.txt and version_history.txt (this document).
+
+[20110106]
+- Route53HostedZone.createHostedZone() used to append a "." to the name property.  I've removed this, and now the trailing dot is required to be passed in.
+- I've changed the version naming from numbered (i.e. 1) to dated (i.e. 20110106).
+
+[1] (aka 20101207)
+Initial release
